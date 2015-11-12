@@ -5,9 +5,10 @@ all:	angular-bitcore-wallet-client.min.js
 clean:
 	rm -f angular-bitcore-wallet-client.js
 	rm -f angular-bitcore-wallet-client.min.js
+	rm -rf node_modules/
 
 angular-bitcore-wallet-client.js: index.js
 	${BIN_PATH}browserify $< > $@
 
 angular-bitcore-wallet-client.min.js: angular-bitcore-wallet-client.js
-	${BIN_PATH}uglify  -s $<  -o $@
+	${BIN_PATH}uglifyjs $< -s -o $@

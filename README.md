@@ -1,6 +1,8 @@
 # angular-bitcore-wallet-client
 AngularJS module for [bitcore-wallet-client](https://github.com/bitpay/bitcore-wallet-client)
 
+Decred Fork
+
 ## Get started
 
 ```
