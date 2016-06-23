@@ -2,7 +2,8 @@
   "name": "angular-bitcore-wallet-client",
   "description": "AngularJS module for bitcore-wallet-client library",
   "author": "BitPay Inc",
-  "version": "0.4.4D",
+  "licence": "MIT",
+  "version": "1.1.7",
   "main": "index.js",
   "devDependencies": {
     "browserify": "^9.0.3",
